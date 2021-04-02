@@ -39,7 +39,7 @@ Resources:
     Properties:
       CidrBlock: 172.10.2.0/24
       VpcId: !Ref VPC
-      AvailabilityZone: !Join ['', [!Ref "AWS::Region", 'b']]
+      AvailabilityZone: !Join ['', [!Ref "AWS::Region", 'c']]
 
   # Create a route table to allow access to internet
   PublicRouteTable:
